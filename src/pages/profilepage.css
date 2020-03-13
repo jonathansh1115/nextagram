@@ -1,0 +1,60 @@
+#s {
+    position: absolute;
+    right: 10vw;
+    top: 10vw;
+}
+
+@media screen and (max-width: 1252px) {
+    header.user-profile {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 40vh;
+        background-color: rgb(235, 235, 235);
+    }
+    div#loading {
+        height: 60vh;
+    }
+}
+
+@media screen and (min-width: 1252px) {
+    header.user-profile {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 50vh;
+        background-color: rgb(235, 235, 235);
+    }
+    div#loading {
+        height: 50vh;
+    }
+}
+
+
+/* img.profile {
+    border-radius: 50%;
+    width: 22vw;
+} */
+
+section.name {
+    width: 500px;
+    display: flex;
+    align-items: center;
+}
+
+h1#user-name {
+    margin: 10px;
+}
+
+.test {
+    width: 25vw;
+    height: 25vh;
+    border: black solid 2px;
+    margin: 5px;
+    overflow: hidden;
+}
+
+img.not-profile {
+    width: 25vw;
+    margin: 5px;
+}

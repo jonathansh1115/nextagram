@@ -1,0 +1,12 @@
+img.profile {
+    border-radius: 50%;
+    width: 22vw;
+    margin: 1.3vw 1.3vw 1.3vw 1.3vw;
+}
+
+img.notProfile {
+    width: 20vw;
+    height: 25vh;
+    overflow: hidden;
+    margin: 5px;
+}
